@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<nav>
+
 <div class=bouton> 
         <ul>
             <a href="menu.html" class="bouton2">menu</a>
@@ -16,36 +16,24 @@
             <a href="exo2.php" class="bouton2">exo 2</a>
         </ul>
       </div>
-<div class=bot>
-      <a href="test.php" class="bouton2">RAFRECHIRE</a>
-      </div>
 
-     </nav>
-      <?php 
-      $var1=" une variable";
-      ?>
-      <?php
-      $var1 = rand(0,100);
-      echo $var1;
-      if($var1%2==1){
-        ?><div class=impaire>
+<?php
+$tab = array(
+    "A"  => 1,
+    "B" =>  2,
+    "C" =>  3,
+    "D" =>  4,
+    "E" =>  5,
+);
 
-          <?php
-        echo"je suis impaire";?>
-        </div>
+echo $tab["A"];
+echo $tab["B"];
+echo $tab["C"];
+echo $tab["D"];
+echo $tab["E"];
 
 
-        <?php
-        }else{
-          ?>
+    ?>
 
-
-          <div class=paire>
-
-          <?php
-        echo"je suis paire";?>
-        </div><?php
-      }
-      ?>
-  </body>
+</body>
   </html>
