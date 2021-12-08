@@ -18,22 +18,20 @@
       </div>
 
 <?php
-$tab = array(
-    "A"  => 1,
-    "B" =>  2,
-    "C" =>  3,
-    "D" =>  4,
-    "E" =>  5,
-);
-
-echo $tab["A"];
-echo $tab["B"];
-echo $tab["C"];
-echo $tab["D"];
-echo $tab["E"];
 
 
+$tab2 = array(12,212,52,17,564);
+for($i = 0; $i <=4; $i++){
+    echo $tab2[$i];
+}
     ?>
+
+<table>
+        <thead>
+            <tr>
+                <th> <?php echo $tab2[0]?> </th>
+            </tr>
+</table>
 
 </body>
   </html>
